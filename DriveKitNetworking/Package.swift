@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DriveKitNetworking",
-            path: "DriveKitNetworking.xcframework",
+            path: "DriveKitNetworkingModule.xcframework",
         )
     ]
 )

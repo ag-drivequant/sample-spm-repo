@@ -14,9 +14,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
+            name: "DriveKitNetworking",
+            path: "../DriveKitNetworking/DriveKitNetworkingModule.xcframework",
+        ),
+        .binaryTarget(
             name: "DriveKitCore",
-            path: "DriveKitCore.xcframework",
-            dependencies: [.target(name: "DriveKitNetworking")]
+            path: "DriveKitCoreModule.xcframework",
+//            dependencies: [.target(name: "DriveKitNetworking")],
         )
     ]
 )
