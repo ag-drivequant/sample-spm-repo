@@ -13,8 +13,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "DriveKitNetworking"),
-        .package(path: "DriveKitCore")
+        .package(path: "./DriveKitNetworking"),
+        .package(path: "./DriveKitCore")
     ],
     targets: [
         .target(
